@@ -32,21 +32,21 @@ Wackman environment (configure PATH, CPPFLAGS, LDFLAGS, etc.).
 
 ## Synopsis
 
-`wackman install bash`
-`wackman uninstall bash`
+- `wackman install bash`
+- `wackman uninstall bash`
 
     Install or uninstall a package.  During uninstallation, if the
     name `bash` is ambiguous (e.g., if there are versions 4.4.12 and
     4.4.12_1 installed), the command will fail unless the fully
     qualified name is given (`bash-4.4.12`).
 
-`wackman link bash`
-`wackman unlink bash`
+- `wackman link bash`
+- `wackman unlink bash`
 
     Manually link or unlink an installed package into the main
     `prefix` directories.
-    
-`wackman dev http://ftp.gnu.org/gnu/bash/bash-4.3.tar.gz`
+
+- `wackman dev http://ftp.gnu.org/gnu/bash/bash-4.3.tar.gz`
 
     Downloads the source archive from the specified URL, guesses the
     name and version of the package, initialises a new `Wackfile` for
