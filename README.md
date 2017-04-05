@@ -55,3 +55,14 @@ Wackman environment (configure PATH, CPPFLAGS, LDFLAGS, etc.).
     git archive.  You can then attempt to install the package
     manually; if the downloaded archive requires edits, these can be
     saved as a patch using git.
+
+## Further Reading
+
+- [nix](https://nixos.org/nix/) - The Purely Functional Package
+  Manager.
+    - [blog post about this](https://invalidmagic.wordpress.com/2011/01/21/running-the-nix-package-manager-in-a-prefix-as-the-home-directory/)
+- [linuxbrew](https://github.com/Homebrew/linuxbrew)
+- [the linux port of homebrew](https://github.com/rubiojr/homebrew)
+- [pkgsrc](http://www.pkgsrc.org/) - NetBSD's package manager, but
+  designed to be portable so that it supports Linux, and can install
+  packages without privileges, just like Homebrew.
